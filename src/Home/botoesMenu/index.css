@@ -1,0 +1,33 @@
+.btSemDrop {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(14, 21, 84);
+  font-weight: 600;
+  color: rgb(228, 231, 221);
+  margin-bottom: 2px;
+}
+.btSemDrop:hover, .subMenu .btSemDrop:hover {
+    background-color: rgb(7, 69, 139);
+    cursor: pointer;
+    color: rgb(212, 255, 0);
+}
+.btSemDrop:active {
+  background-color: rgb(18, 25, 87);
+  cursor: pointer;
+}
+.logoBtSemDrop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+}
+ 
+.subMenu .btSemDrop {
+    background-color: rgb(46, 55, 132);
+}
